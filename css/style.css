@@ -1,0 +1,293 @@
+html{
+    font-family: 'poppins' ;
+    font-size: 16px;
+    color: #333;
+}
+
+header{
+    min-height: 100vh;
+   /* background-image: url(../images/R.jpeg); */
+    background: linear-gradient(rgba(0, 0, 0, 0.7) , rgba(0, 0, 0, 0.7) ) , url(../images/R.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    height: 100px;
+    margin-top: 20px;
+}
+
+.main-nav{
+    list-style: none;
+    display: flex;
+}
+.main-nav li{
+   margin-left: 30px;
+}
+.main-nav li a{
+   text-decoration: none;
+   color: white;
+   text-transform: uppercase;
+   letter-spacing: 2px;
+}
+
+.main-nav li a:hover{
+    text-decoration: underline;
+    color: orange;
+}
+
+.hero{
+    position: absolute;
+    top: 40%;
+    left: 20%;
+}
+
+h1{
+    color: white;
+    font-size: 2rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    word-spacing: 5px;
+    letter-spacing: 3px;
+    line-height: 1.5;
+    margin-bottom: 30px;
+}
+.btn{
+    border: solid 1px orange;
+    margin-right: 15px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: orange;
+    text-decoration: none;
+}
+.btn:hover{
+    color: white;
+    background-color: orange;
+}
+
+section{
+    padding: 40px 0px;
+}
+
+h2{
+    font-size: 1.6rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+hr{
+    width: 100px;
+    border: solid 3px orange;
+    background-color: orange;
+}
+
+.feat-desc{
+    width: 60%;
+   margin-left: 15%;
+   text-align: center;
+   line-height: 1.5;
+   margin-bottom: 30px;
+}
+
+.box{
+ text-align: center;
+}
+.box i{
+ font-size: 40px;
+ color: orange;
+}
+.box p{
+ text-align:left;
+ line-height: 1.5;
+}
+
+
+#meals{
+    padding: 0;
+}
+
+.meal{
+    padding: 0;
+    margin-bottom: -5px;
+    background-color: black;
+    overflow: hidden;
+}
+
+.meal img{
+    width: 100%;
+    opacity: .5;
+    transition: 1s;
+    transform: scale(1.2);
+}
+
+.meal img:hover{
+    opacity: 1 ;
+    transform: scale(1);
+}
+
+.l-work{
+    text-align:right;
+}
+
+.l-work img{
+    width: 40%;
+}
+
+.r-work {
+   padding-top: 50px;
+}
+
+.step{
+   display: flex;
+   align-items: center;
+   margin-bottom: 30px;
+}
+.step div{
+   border: 2px solid orange;
+
+   width: 5%;
+   height: 10%;
+   border-radius: 50%;
+
+   margin-right: 10px;
+   text-align: center;
+   line-height: 40px;
+}
+
+.download img{
+    height: 50px;
+}
+
+
+.city img{
+   width: 100%;
+} 
+
+.city-info{
+  margin-bottom: 15px;
+}
+.city-info i{
+   color: orange;
+   margin-right: 15px;
+}
+
+
+#testimonials{
+    background: linear-gradient(rgba(0, 0, 0, 0.7) , rgba(0, 0, 0, 0.7) ) , url(../images/pexels-photo-1166120.jpeg);
+    background-position: center;
+    background-size: cover;
+    color: white;
+    background-attachment: fixed;
+}
+
+#testimonials i{
+    font-size: 50px;
+   
+}
+
+#testimonials p{
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+#testimonials img{
+   width: 60px;
+   border-radius: 50%;
+   vertical-align: middle;
+   margin-right: 10px;
+}
+
+#contact form{
+    margin-top: 50x;
+}
+
+input[type=text] ,
+input[type=email] ,
+select,textarea
+{
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 7px;
+    border: solid 1px #ddd;
+    border-radius: 3px;
+}
+
+input[type=checkbox] {
+    margin-bottom: 15px;
+}
+
+button{
+    background-color: orange;
+    border: solid 2px orangered;
+    border-radius: 10px;
+    color: white;
+    padding: 10px 20px;
+}
+
+button:hover{
+    background-color: transparent;
+    color: orangered;
+}
+
+
+
+footer{
+    padding: 30px 0px;
+    background-color: #333;
+}
+
+
+footer p{
+    color: #fff;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.footer-nav{
+    list-style: none;
+    display: flex;
+}
+.footer-nav li{
+   margin-left: 20px;
+}
+.footer-nav li a{
+   text-decoration: none;
+   color: white;
+   text-transform: uppercase;
+   letter-spacing: 2px;
+}
+
+.footer-nav li a:hover{
+    text-decoration: underline;
+    color: orange;
+}
+
+
+.social-nav{
+    list-style: none;
+    display: flex;
+    float: right;
+}
+.social-nav li{
+   margin-left: 20px;
+}
+.social-nav li a{
+   text-decoration: none;
+   color: white;
+   text-transform: uppercase;
+   letter-spacing: 2px;
+   font-size: 25px;
+}
+
+.social-nav li a:hover{
+    text-decoration: underline;
+    color: orange;
+}
